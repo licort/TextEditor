@@ -1,0 +1,79 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 2px 10px;
+}
+
+i {
+  cursor: pointer;
+}
+
+button:focus,
+input[type='file']:focus {
+  background-color: #def0f7;
+}
+
+.ant-divider-horizontal {
+  margin: 0;
+}
+
+.button_wrapper {
+  padding: 10px;
+  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
+}
+
+#textbox {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    height: 200px;
+    width: auto;
+}
+
+#special__button {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: lightgray;
+}
+
+.textarea__wrapper {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.custom-file {
+  color: white;
+  width: 14px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 400;
+  font-size: 10pt;
+  border: none;
+  padding: 5px 10px;
+}
+.custom-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+input[type='file']::before {
+  content: '\f03e';
+  font-family: 'Font Awesome 5 Free';
+  color: black;
+  width: 100px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
